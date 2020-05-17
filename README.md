@@ -1,9 +1,9 @@
 # In-App Purchase Swift Library - Xcode Demo Project.
-See InAppPurchaseLib on GitHub: [iap-swift-library](https://github.com/iridescent-dev/iap-swift-library).
+See InAppPurchaseLib on GitHub: [iap-swift-lib](https://github.com/iridescent-dev/iap-swift-lib).
 
 <p align="center">
-  <a href="https://github.com/iridescent-dev/iap-swift-library">
-    <img src="https://github.com/iridescent-dev/iap-swift-library/blob/master/InAppPurchaseLib.png" width="640" title="InAppPurchaseLib">
+  <a href="https://github.com/iridescent-dev/iap-swift-lib">
+    <img src="https://github.com/iridescent-dev/iap-swift-lib/blob/master/InAppPurchaseLib.png" width="640" title="InAppPurchaseLib">
   </a>
 </p>
 
@@ -26,7 +26,7 @@ See InAppPurchaseLib on GitHub: [iap-swift-library](https://github.com/iridescen
 
 
 ### Installation
-* Clone iap-swift-library-demo to your computer and use it in Xcode:
+* Clone iap-swift-lib-demo to your computer and use it in Xcode:
   * *Clone or download* > *Open in Xcode*
   
 * Set your App Store Connect project information:
