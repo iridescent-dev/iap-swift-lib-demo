@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B6B20A51247154AD00065A76 /* InAppPurchaseLib in Frameworks */ = {isa = PBXBuildFile; productRef = B6B20A50247154AD00065A76 /* InAppPurchaseLib */; };
+		B6892DA724716CCF00EE2FEA /* InAppPurchaseLib in Frameworks */ = {isa = PBXBuildFile; productRef = B6892DA624716CCF00EE2FEA /* InAppPurchaseLib */; };
 		B6DC626124705CBD004C8F3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC626024705CBD004C8F3E /* AppDelegate.swift */; };
 		B6DC626324705CBD004C8F3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DC626224705CBD004C8F3E /* SceneDelegate.swift */; };
 		B6DC626C24705CBE004C8F3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6DC626B24705CBE004C8F3E /* Assets.xcassets */; };
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6B20A51247154AD00065A76 /* InAppPurchaseLib in Frameworks */,
+				B6892DA724716CCF00EE2FEA /* InAppPurchaseLib in Frameworks */,
 				B6DC627824705CE4004C8F3E /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,7 +151,7 @@
 			);
 			name = InAppPurchaseLibDemo;
 			packageProductDependencies = (
-				B6B20A50247154AD00065A76 /* InAppPurchaseLib */,
+				B6892DA624716CCF00EE2FEA /* InAppPurchaseLib */,
 			);
 			productName = iapdemo;
 			productReference = B6DC625D24705CBD004C8F3E /* IAP-Demo.app */;
@@ -182,7 +182,7 @@
 			);
 			mainGroup = B6DC625424705CBD004C8F3E;
 			packageReferences = (
-				B6B20A4F247154AD00065A76 /* XCRemoteSwiftPackageReference "iap-swift-library" */,
+				B6892DA524716CCF00EE2FEA /* XCRemoteSwiftPackageReference "iap-swift-lib" */,
 			);
 			productRefGroup = B6DC625E24705CBD004C8F3E /* Products */;
 			projectDirPath = "";
@@ -422,20 +422,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B6B20A4F247154AD00065A76 /* XCRemoteSwiftPackageReference "iap-swift-library" */ = {
+		B6892DA524716CCF00EE2FEA /* XCRemoteSwiftPackageReference "iap-swift-lib" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/iridescent-dev/iap-swift-library";
+			repositoryURL = "https://github.com/iridescent-dev/iap-swift-lib.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B6B20A50247154AD00065A76 /* InAppPurchaseLib */ = {
+		B6892DA624716CCF00EE2FEA /* InAppPurchaseLib */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B6B20A4F247154AD00065A76 /* XCRemoteSwiftPackageReference "iap-swift-library" */;
+			package = B6892DA524716CCF00EE2FEA /* XCRemoteSwiftPackageReference "iap-swift-lib" */;
 			productName = InAppPurchaseLib;
 		};
 /* End XCSwiftPackageProductDependency section */
