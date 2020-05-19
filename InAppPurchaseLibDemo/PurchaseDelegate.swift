@@ -12,7 +12,7 @@ import InAppPurchaseLib
 class PurchaseDelegate: IAPPurchaseDelegate {
     required init(){}
     func productPurchased(productIdentifier: String) {
-        // Unlock product related content.
+        // Unlock product related content for consumables and/or non-renewing subscriptions.
         // unlockContent(for: productIdentifier)
         
         // Finish the product transactions.

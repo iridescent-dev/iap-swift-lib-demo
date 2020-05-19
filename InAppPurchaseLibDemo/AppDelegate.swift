@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 IAPProduct(productIdentifier: "monthly_plan", productType: .autoRenewableSubscription),
                 IAPProduct(productIdentifier: "yearly_plan", productType: .autoRenewableSubscription)
             ],
-            iapPurchaseDelegate: PurchaseDelegate(),
+            iapPurchaseDelegate: PurchaseDelegate(), // optional for non-consumables and/or auto-renewable subscriptions.
             validatorUrlString: "https://validator.fovea.cc/v1/validate?appName=iapdemo&apiKey=12345678"
         )
         
