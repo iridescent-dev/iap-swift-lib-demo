@@ -10,7 +10,7 @@ import UIKit
 import InAppPurchaseLib
 
 class PurchasesViewController: UIViewController {
-
+    
     private var loaderView = LoaderView()
     
     // MARK: - Action called on touchUpInside
@@ -27,6 +27,8 @@ class PurchasesViewController: UIViewController {
                 }
             case .failed:
                 print("Restore purchases failed.")
+            default:
+                return
             }
         })
     }

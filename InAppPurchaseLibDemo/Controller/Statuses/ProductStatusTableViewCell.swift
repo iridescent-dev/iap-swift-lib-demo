@@ -15,7 +15,7 @@ class ProductStatusTableViewCell: UITableViewCell {
     @IBOutlet weak var purchaseDateLabel: UILabel!
     @IBOutlet weak var expiryStackView: UIStackView!
     @IBOutlet weak var expiryDateLabel: UILabel!
-        
+    
     func show(iapProduct: IAPProduct){
         let formatter = DateFormatter()
         formatter.dateStyle = .medium

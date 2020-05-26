@@ -14,6 +14,7 @@ class PurchaseDelegate: IAPPurchaseDelegate {
     func productPurchased(productIdentifier: String) {
         // Unlock product related content for consumables and/or non-renewing subscriptions.
         // unlockContent(for: productIdentifier)
+        print("The product was purchased: \(productIdentifier)")
         
         // Finish the product transactions.
         InAppPurchase.finishTransactions(for: productIdentifier)

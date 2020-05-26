@@ -41,7 +41,7 @@ class ProductsTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let productIdentifier = InAppPurchase.getProducts()[indexPath.row].productIdentifier
-
+        
         self.loaderView.show(parent: self.view)
         InAppPurchase.purchase(
             productIdentifier: productIdentifier,
@@ -52,12 +52,7 @@ class ProductsTableViewController: UITableViewController {
                     print("Product purchased successful.")
                     
                 case .failed:
-                    if result.skError != nil {
-                        print("Purchase failed: \(result.skError!.localizedDescription).")
-                        
-                    } else if result.iapError != nil {
-                        print("Purchase failed: \(result.iapError!.localizedDescription).")
-                    }
+                    print("Purchase failed: \(result.localizedDescription ?? "").")
                     
                 case .cancelled:
                     print("The user canceled the payment request.")

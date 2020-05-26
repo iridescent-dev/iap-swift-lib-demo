@@ -10,10 +10,14 @@ import UIKit
 import InAppPurchaseLib
 
 class ProductStatusesTableViewController: UITableViewController {
-        
+    
     override func viewWillAppear(_ animated: Bool) {
-        // Refresh view.
+        // refresh view
         tableView.reloadData()
+        
+        InAppPurchase.refresh(callback: { _ in
+            self.tableView.reloadData()
+        })
     }
     
     // MARK: - Table view data source
