@@ -3,7 +3,7 @@ See InAppPurchaseLib on GitHub: [iap-swift-lib](https://github.com/iridescent-de
 
 <p align="center">
   <a href="https://github.com/iridescent-dev/iap-swift-lib">
-    <img src="https://github.com/iridescent-dev/iap-swift-lib/blob/master/InAppPurchaseLib.png" width="640" title="InAppPurchaseLib">
+    <img src="https://github.com/iridescent-dev/iap-swift-lib/blob/main/img/InAppPurchaseLib.png?raw=true" width="640" title="InAppPurchaseLib">
   </a>
 </p>
 
